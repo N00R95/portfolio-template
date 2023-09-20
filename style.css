@@ -167,17 +167,7 @@ h1.hero-header {
 }
 .signup-container{
     display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    align-items: center;
-    border-radius: 5px;
-    border-color: none;
-    justify-content: flex-start;
-    background-color: #1a85ef;
-    color: #1F2937;
-    margin: 50px 200px;
-    flex-wrap: wrap;
-   
+
 }
 .sig-p{
 order:2
