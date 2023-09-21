@@ -7,6 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 *{  
+ 
     margin: 0 auto;
 }
 
@@ -53,15 +54,13 @@ a {
 }
 .hero {
   display: flex;
-  flex: 1;
-  margin-bottom: 30px;
-  padding: 60px;
   justify-content: space-around;
-  align-items: center;
- 
+  align-items: stretch;
+
   background-color: #1f2937;
-  color: whitesmoke;
-  outline-color: #1f2937;
+ 
+padding: 50px 170px 100px 170px;
+
 }
 
 .img-placeholder {
@@ -70,23 +69,26 @@ align-self: flex-end;
 border-radius: 0px;
 }
 img{
-    width: 500px;
-    height: 250px;
-    border-radius: 0%;
+    
+    border-radius: 2px;
 }
 .hero-item {
   color: #e5e7eb;
   font-size: 18px;
-  margin-left: 100px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+ 
 }
 #hero-btn {
-  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
   background-color: #3882f6;
-  border: #3882f6;
-  width: 100px;
-  padding: 5px;
-  font-size: 18px;
-  margin-top: 10PX;
+   font-weight: bold;
+   color: #f9faf8;
+   font-size: 18px;
+   margin-top: 5px;
 }
 h1.hero-header {
   display: flex;
@@ -95,11 +97,12 @@ h1.hero-header {
   flex-wrap: nowrap;
   font-size: 48px;
   color: #f9faf8;
-  margin-left: 100px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  
 }
-.info {
-  background-color: whitesmoke;
-}
+
+
 
 .info-container {
   display: flex;
@@ -166,25 +169,48 @@ h1.hero-header {
     font-size: 24px;
 }
 .signup-container{
-    display: flex;
-
+    
+ 
+   
+    background-color: #3882f6;
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 2em;
 }
-.sig-p{
-order:2
+
+
+.signup{
   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
 }
 .action{
-color: #f9faf8;
-align-self: flex-start;
-padding-top: 30px;
-
+  padding-left: 34px;
 }
+
 #signup-btn{
-align-self: center;
-width: 150px;
-border: 5px solid rgb(255, 255, 255);
-border-radius: 10px;
-background-color: #3882f6;
-color: #f9faf8;
-}
 
+width: 120px;
+height: 30px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 7px;
+background-color: #3882f6;
+ font-weight: bold;
+ color: #f9faf8;
+ font-size: 18px;
+}
+.footer{
+  background-color: #1F2937;
+  display: flex;
+  flex: 1 1 200px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
