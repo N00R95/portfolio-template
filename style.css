@@ -1,14 +1,13 @@
 body {
   border: 1px solid red;
   margin: 0 auto;
-  
+
   color: white;
 
   font-family: "Roboto", sans-serif;
 }
-*{  
- 
-    margin: 0 auto;
+* {
+  margin: 0 auto;
 }
 
 .header {
@@ -26,7 +25,6 @@ body {
   font-size: 24px;
   color: #f9faf8;
   outline-color: #1f2937;
-
 }
 
 .nav-list {
@@ -45,12 +43,10 @@ body {
   color: #e5e7eb;
   font-size: 18px;
   outline-color: #1f2937;
- 
 }
 a {
   color: aliceblue;
   text-decoration: none;
-
 }
 .hero {
   display: flex;
@@ -58,26 +54,23 @@ a {
   align-items: stretch;
 
   background-color: #1f2937;
- 
-padding: 50px 170px 100px 170px;
 
+  padding: 50px 170px 100px 170px;
 }
 
 .img-placeholder {
   display: flex;
-align-self: flex-end;
-border-radius: 0px;
+  align-self: flex-end;
+  border-radius: 0px;
 }
-img{
-    
-    border-radius: 2px;
+img {
+  border-radius: 2px;
 }
 .hero-item {
   color: #e5e7eb;
   font-size: 18px;
   padding-bottom: 20px;
   padding-right: 10px;
- 
 }
 #hero-btn {
   width: 120px;
@@ -85,10 +78,10 @@ img{
   border: none;
   border-radius: 7px;
   background-color: #3882f6;
-   font-weight: bold;
-   color: #f9faf8;
-   font-size: 18px;
-   margin-top: 5px;
+  font-weight: bold;
+  color: #f9faf8;
+  font-size: 18px;
+  margin-top: 5px;
 }
 h1.hero-header {
   display: flex;
@@ -99,10 +92,7 @@ h1.hero-header {
   color: #f9faf8;
   padding-bottom: 20px;
   padding-right: 10px;
-  
 }
-
-
 
 .info-container {
   display: flex;
@@ -114,7 +104,7 @@ h1.hero-header {
   width: 250px;
 
   margin: 20px;
- 
+
   box-sizing: border-box;
   padding: 20px;
   border-radius: 5px;
@@ -140,74 +130,66 @@ h1.hero-header {
   background-color: whitesmoke;
   font-size: 36px;
   color: #1f2937;
-  
+
   padding: 60px;
 }
 .quote {
-    display: flex;
-    flex-direction: column;
-    background-color: #E5E7EB;
-     
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+
   padding: 60px;
 }
 
 .quote p {
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
-    font-weight: lighter;
-    font-family: 'Roboto', arial;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Roboto", arial;
 }
 
 .quote b {
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 900px;
-    font-family: 'Roboto', arial;
-    text-align: right;
-    color: #1F2937;
-    font-size: 24px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 900px;
+  font-family: "Roboto", arial;
+  text-align: right;
+  color: #1f2937;
+  font-size: 24px;
 }
-.signup-container{
-    
- 
-   
-    background-color: #3882f6;
-    width: 700px;
-    height: 100px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 2em;
+.signup-container {
+  background-color: #3882f6;
+  width: 700px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 2em;
 }
 
-
-.signup{
-  
+.signup {
   display: flex;
   justify-content: center;
   align-items: center;
-  
- 
 }
-.action{
+.action {
   padding-left: 34px;
 }
 
-#signup-btn{
-
-width: 120px;
-height: 30px;
-border: 2px solid rgb(255, 255, 255);
-border-radius: 7px;
-background-color: #3882f6;
- font-weight: bold;
- color: #f9faf8;
- font-size: 18px;
+#signup-btn {
+  width: 120px;
+  height: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  background-color: #3882f6;
+  font-weight: bold;
+  color: #f9faf8;
+  font-size: 18px;
 }
-.footer{
-  background-color: #1F2937;
+.footer {
+  background-color: #1f2937;
   display: flex;
   flex: 1 1 200px;
   justify-content: center;
